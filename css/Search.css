@@ -1,0 +1,73 @@
+#nav{
+
+    border-radius: 11rem;
+    border: 1px solid skyblue;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#nav #find{
+
+    background: transparent;
+    padding: 5px;
+    color: yellow;
+
+    border: 0 !important;
+}
+#nav #back{
+
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+#type{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#type p{
+
+    font-weight: bolder;
+    font-size: large;
+    color: wheat;
+}
+
+
+.main{
+
+    display: flex;
+    width: 100%;
+
+
+}
+#root{
+    
+    width: 100%;
+
+    height: auto;
+    /* overflow-y: scroll; */
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+
+
+.main .error{
+
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.main .error p {
+
+    color: crimson;
+
+    text-align: center;
+
+    font-weight: bolder;
+    border-bottom: solid;
+}

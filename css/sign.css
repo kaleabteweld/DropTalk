@@ -1,0 +1,122 @@
+
+@media all and (max-width: 500px) { 
+
+    #head #main #painl #form_sig .T{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #head #main #painl #form_sig .T > .form-group{
+    
+    
+        margin-left: 0px !important;
+       
+        flex: 1;
+    }
+    #bace #nav > #home{
+    
+        margin-right: auto !important;
+        margin-left: auto !important;
+        
+
+    
+    
+    
+    
+    }
+    #head #main #painl #form_sig .form-group label{
+
+        align-self: center; 
+        font-weight: bolder;
+        color: #EB6D00 !important;
+    }
+    #head #main #painl #form_sig .form-group input{
+
+        border-radius: 11rem;   
+        background-color: #191919 !important;
+        color: #EB6D00 !important;
+    }
+    #bace #a{
+
+
+        border: #823A00 solid !important;
+    
+
+    
+    }
+    #bace #a #ok{
+
+        margin-bottom: 100px;
+    }
+    
+
+
+}
+@media all and (max-height: 600px){
+
+    #head #main #painl #form_sig{
+
+        height: 70vh !important;
+        overflow-y: scroll !important;
+    }
+}
+/* form */
+#head #main #painl #form_sig{
+
+   
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+/* .T */
+#head #main #painl #form_sig .T{
+
+    width: 100%;
+
+    display: flex;
+
+}
+#head #main #painl #form_sig .T > .form-group{
+
+    margin-left: 20px;
+    width: 100%;
+}
+
+#head #main #painl #form_sig .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+#head #main #painl #form_sig .form-group label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: skyblue;
+}
+#head #main #painl #form_sig .form-group input{
+
+    border-radius: 11rem;   
+    background-color: #1e1e1e !important;
+    color: #2271b2 !important;
+}
+
+/* button */
+#head #main #painl #form_sig #post{
+    background-color: #191919 !important;
+    color: #EB6D00 !important;
+    font-weight: bolder;
+    border: 0;
+}
+
+
+#head #main #painl #form_sig  > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+#head #main #painl #form_sig .T > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}

@@ -1,0 +1,44 @@
+/* form */
+#head #main #painl #form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+#head #main #painl #form .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+#head #main #painl #form .form-group label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: skyblue;
+}
+#head #main #painl #form .form-group input{
+
+    border-radius: 11rem;   
+    background-color: #1e1e1e !important;
+    color: #2E8fa2 !important;
+}
+
+
+#head #main #painl #other{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* other */
+
+#head #main #painl #form  > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+#head #main #painl #form .T > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}

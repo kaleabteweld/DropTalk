@@ -1,0 +1,248 @@
+@media all and (max-width: 500px) {
+
+
+    #chat .channal{
+
+        max-width: 100vw !important;
+        
+    }
+
+
+
+    .settings{
+
+        max-width: 100% !important;
+
+    }
+
+
+
+}
+*{
+    outline: none !important;
+}
+
+#chat .channal{
+
+    min-width: 100px !important;
+    /* max-width: 50vh !important; */
+
+    height: auto;
+
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+
+    flex-direction: column;
+
+
+
+
+}
+#chat .channal #upload_img{
+    width: 95% !important;
+}
+#chat .channal .vio .main{
+
+    width: 95% !important;
+    
+}
+#chat .channal .main{
+
+    background-color: #3f4c58 !important;
+    max-width: 100vh !important;
+    
+}
+#chat .channal .main #text{
+
+    /* color: #2674ff !important; */
+}
+#chat .channal .left{
+
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+
+body{
+    position: relative;
+}
+.settings{
+
+    position: absolute;
+    z-index: 1;
+
+    max-width: 40vw;
+    height: 100%;
+
+    overflow-y: scroll;
+
+    background-color: #3d444a;
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.settings .Nav{
+
+    width: 100%;
+    height: 66px;
+
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: start;
+
+    background-color: #343a40;
+    
+   
+
+}
+.settings .Nav .log_out{
+
+    margin: auto;
+    margin-left: auto;
+
+    margin-right: 10px;
+    height: 78%;
+}
+
+.settings #logup{
+
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.settings #logup > button{
+
+    background: transparent;
+    border: 0;
+
+    padding: 5px;
+
+    color: skyblue;
+    font-weight: bolder;
+}
+.active{
+    border-bottom: 2px skyblue solid !important;
+}
+.ac{
+    border-bottom: 2px skyblue solid !important;
+}
+.no_ac{
+    border-bottom: transparent !important;
+}
+
+.settings .members{
+
+    max-height: 100vh;
+    width: 100%;
+    
+    overflow: scroll;
+}
+
+
+.settings .main{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    height: -webkit-fill-available;
+}
+.settings .main .G_pic{
+
+    height: 40%;
+    width: 100%;
+
+    border-radius: 11px;
+}
+.settings .main .nonrmal{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.settings .main .nonrmal p{
+
+    height: 50px;
+    width: 96%;
+
+    margin: 10px;
+
+    color: wheat;
+    background-color: #3f4c58;
+
+    border-radius: 11rem;
+
+    padding: 12px;
+}
+
+.settings .admin{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 60%;
+
+}
+.settings .admin .into{
+
+    width: 20%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-weight: 800;
+
+    border-bottom: solid;
+
+    text-align: center;
+    color: brown;
+}
+.settings .admin .form{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.settings .admin .form input{
+
+    border-radius: 11rem;
+    background-color: #3d444a;
+    border: 1px yellow solid;
+    color: wheat;
+}
+.settings .admin .form > button{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.settings .admin .reMe{
+
+    margin-top: auto ;
+    border-radius: 11rem;
+}
+.settings .admin .reCh{
+
+    margin-top: 10px ;
+    border-radius: 11rem;
+}

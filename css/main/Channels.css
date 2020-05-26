@@ -1,0 +1,12 @@
+#root #Channels{
+
+    height: auto;
+    /* overflow-y: scroll; */
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+    
+}

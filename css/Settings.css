@@ -1,0 +1,569 @@
+@media all and (max-width: 500px) { 
+
+    .main .edit_account .sign_from .T{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .main .edit_account .sign_from .T > .form-group{
+    
+    
+        margin-left: 0px !important;
+       
+        flex: 1;
+    }
+
+    .main .u .about{
+
+        /* height: 40% !important; */
+    }
+    .main .u .about .follow{
+        width: 100% !important;
+    }
+
+    .main .u .post{
+        /* max-height: 68% !important;
+        height: 68% !important; */
+    }
+
+}
+
+
+#nav{
+
+    display: flex;
+    width: 100%;
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    height: 7vh;
+}
+#nav #logout{
+
+    background-color: transparent;
+    border: solid 1px;
+    color: skyblue;
+
+    padding: 5px;
+    font-weight: bold;
+
+    margin: auto;
+    margin-right: 15px;
+
+    text-decoration: none !important;
+
+    border-radius: 11rem;
+
+    text-align: center;
+
+    width: 100px;
+
+    height: min-content;
+
+   
+}
+#nav #title{
+
+    color: whitesmoke;
+
+    font-size: xx-large;
+    font-weight: 10px;
+    margin-bottom: 0;
+
+
+
+    text-align: left;
+    margin-left: 10px;
+    width: 90%;
+
+    
+
+}
+
+
+
+
+
+
+.main{
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    flex-direction: column;
+}
+.main > p{
+
+    margin-left: 10px;
+    font-size: larger;
+    color: #a0a0a0;
+
+    text-align: center;
+}
+
+.main .u{
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(61, 68, 74);
+
+}
+.main .u .about{
+
+    /* height: 20%; */
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 5px;
+
+}
+.main .u .about .us_img{
+
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+    
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 0;
+
+}
+.main .u .about .name{
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 0;
+
+    width: 50%;
+}
+.main .u .about .name .Name{
+
+    margin: 0;
+
+    font-size: larger;
+    color: wheat;
+    font-weight: 500;
+}
+.main .u .about .name .us_name{
+
+    margin: 0;
+    
+    font-size: larger;
+    color: darkgrey;
+    font-weight: 500;
+}
+.main .u .about .name #follow{
+
+    margin: 0;
+    margin-top: 12px;
+
+    width: 110px;
+    
+    padding: 5px;
+
+    border: solid skyblue 1px;
+    border-radius: 11rem;
+
+    background-color: transparent;
+
+    text-align: center;
+    color: cornflowerblue;
+    font-size: initial;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+.main .u .about .follow{
+
+    margin-left: auto;
+    margin-right: 10px;
+
+    width: 30%;
+
+    display: flex;
+    /* flex-direction: column */
+}
+.main .u .about .follow .f{
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+
+    cursor: pointer;
+}
+.main .u .about .follow .f .nu{
+
+    font-size: larger;
+    color: wheat;
+    font-weight: 500;
+
+    margin: 0;
+
+    text-align: center;
+
+}
+.main .u .about .follow .f .text{
+
+    font-weight: 500;
+    color: cadetblue;
+
+    margin: 0;
+}
+
+
+.main .u .post{
+
+    background-color: #343a40;
+
+    /* max-height: 78%;
+    height: 78%; */
+    height: auto;
+    width: 100%;
+
+    overflow-y: scroll;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 11px;
+}
+/* .post */
+.main .u .post .P{
+    
+    display: flex;
+    flex-direction: column;
+}
+.main .u .post .Post{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 300px;
+
+    padding: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+    border-radius: 11px;
+
+    background-color: rgb(61, 68, 74);
+
+}
+.main .u .post .Post #head{
+
+    min-width: 100%;
+    height: auto;
+
+
+    display: flex;
+}
+.main .u .post .Post #head img{
+
+    height: 60px;
+    width: 60px;
+
+    border-radius: 50%;
+}
+.main .u .post .Post #head a{
+
+    font-size: large;
+    font-weight: bolder;
+    color: whitesmoke;
+
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+}
+.main .u .post .Post #head a:hover{
+    text-decoration: none !important;
+}
+.main .u .post .Post #head #add{
+
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.main .u .post .Post #head #add > img{
+
+    
+    height: 30px;
+    width: 30px;
+    border-radius: 20%;
+}
+
+.main .u .post .Post #Data{
+
+    width: 100%;
+    height: inherit;
+
+    margin-top: 30px;
+
+    border-radius: 11px;
+
+    padding: 10px;
+
+    background-color: #454e56;
+
+}
+.main .u .post .Post #Data > p{
+
+    font-size: large;
+    font-weight: normal;
+
+    color: #d8d8d8;
+
+}
+
+/* Glist */
+.main .u .post .other{
+
+    margin-top: 20px;
+
+}
+.main .u .post .other > .folloo{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.main .u .post .other .Glist{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    cursor: pointer;
+
+    text-decoration: none !important;
+
+
+
+    /* border-bottom: solid ; */
+}
+.main .u .post .other  .Glist #data{
+    display: flex;
+}
+.main .u .post .other  .Glist #data > img{
+
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+.main .u .post .other .Glist #data #text{
+
+    width: 100%;
+    height: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.main .u .post .other  .Glist #data #text > p{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bolder;
+}
+.main .u .post .other  .Glist #data #text > #sub{
+
+    color: rgb(167, 167, 167);
+    width: 90%;
+
+    margin-right: 0;
+
+
+    font-size: small;
+    font-weight: lighter;
+}
+.main .u .post .other  .Glist > #break{
+
+    background-color: rgb(61, 68, 74);
+
+    width: 75%;
+
+    border-width: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+.main .edit_account{
+
+    height: 100%;
+    width: 90%;
+
+    border-radius: 11px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    display: flex;
+
+    background-color: rgb(61, 68, 74);
+
+    padding: 50px;
+}
+/* form */
+.main .edit_account .sign_from{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.main .edit_account .sign_from .us_pic{
+
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.main .edit_account .sign_from .bio{
+
+    background-color: #1e1e1e !important;
+    color: #2271b2 !important;
+    border: yellow solid 1px;
+}
+.main .edit_account .sign_from .T{
+
+    width: 100%;
+
+    display: flex;
+
+}
+.main .edit_account .sign_from .T > .form-group{
+
+    margin-left: 20px;
+    width: 100%;
+}
+.main .edit_account .sign_from .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.main .edit_account .sign_from label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: skyblue;
+}
+.main .edit_account .sign_from .form-group input{
+
+    border-radius: 11rem;   
+    background-color: #1e1e1e !important;
+    color: #2271b2 !important;
+}
+.main .edit_account .sign_from .post{
+
+    background-color: #1e1e1e;
+    color: skyblue;
+    font-weight: bolder;
+    border: 0;
+    height: 40px;
+}
+.main .edit_account .sign_from  > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+.main .edit_account .sign_from .T > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+
+
+
+
+.main > .about{
+
+    width: 90%;
+    height: auto;
+
+    border-radius: 11px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(61, 68, 74);
+
+    padding: 50px;
+
+}
+.main > .about > img{
+
+    height: 100px;
+    width: 100px;
+
+    border-radius: 50%;
+
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+.main > .about > p{
+    
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+

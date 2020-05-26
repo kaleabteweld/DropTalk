@@ -1,0 +1,312 @@
+*{
+
+    outline: none;
+}
+@media all and (max-width: 500px) {
+
+    #head #text > #G_name{
+
+        max-width: 100px !important;
+        overflow: hidden !important;
+    }
+    .img > img{
+
+        width: 70vw !important;
+        height: 70vw !important;
+    }
+    .vio .main{
+
+        min-width: 70vw !important;
+        min-height: 70vw !important;
+
+    }
+    .vio #paly{
+
+        left: 10% !important;
+        top: 40% !important;
+
+    }
+
+
+
+
+}
+
+#head{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    border-bottom: rgb(61, 68, 74) solid;
+}
+#head #back{
+
+    height: 40px;
+    width: 40px;
+    margin-left: 0;
+}
+#head .but{
+
+    width: auto;
+    flex: 1;
+    margin-right: auto;
+    display: flex;
+}
+#head #G_pic{
+
+    height: 60px;
+    width: 60px;
+
+    border-radius: 50%;
+}
+
+#head #text{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#head #text > p{
+
+    margin: 0;
+    font-weight: bolder;
+    color: white;
+}
+#head #text > #G_name{
+
+
+    width: auto;
+
+}
+
+#head #more{
+
+    height: 40px;
+    width: 40px;
+
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+
+
+#chat{
+    
+    background-color: rgb(61, 68, 74);
+
+    width: 100%;
+    height: 78vh;
+
+    overflow-y: scroll;
+}
+#chat:last-child{
+
+    margin-bottom: 1000px !important;
+}
+#chat .msg{
+
+    min-width: 25vw;
+    max-width: 70vw;
+
+    display: flex;
+
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+#chat .msg .left{
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: auto;
+    
+
+}
+#chat .msg .left #ico{
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+#chat .msg .left #name{
+
+    text-align: center;
+    color: wheat;
+    font-weight: bold;
+
+    margin-bottom: 0;
+}
+#chat .msg .main{
+
+    margin-left: 10px;
+    background-color: #2674ff;
+    border-radius: 11px;
+
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+}
+#chat .msg .main #text{
+
+    font-weight: 600;
+    font-size: medium;
+    color: whitesmoke;
+
+    margin-bottom: auto;
+}
+#chat .msg .main #time{
+
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: right;
+
+    font-weight: bolder;
+    color: white;
+    
+}
+
+
+/* me */
+.me{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto !important;
+    margin-right: 10px;
+}
+.me .main{
+    margin-right: 10px;
+}
+
+/* img */
+.img .main{
+
+    padding: 2px !important;
+    border-radius: 11px;
+    
+}
+.img > img{
+    
+    width: 200px;
+    height: 250px;
+}
+
+/* vio */
+.vio .main{
+
+
+    min-width: 35vw;
+    max-width: 70vw;
+
+    min-height: 35vh;
+    max-height: 70vw;
+
+    border: 2px #2674ff solid;
+
+    background-image: url('/DropTalk/img/33.jpg');
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1px;
+
+    cursor: pointer;
+}
+.vio .main #paly{
+
+    height: 50px;
+    width: 50px;
+
+
+}
+
+
+
+#consoil{
+
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+
+    border-radius: 11rem;
+
+}
+#consoil #text{
+
+    border-radius: 11rem;
+
+    width: 80%;
+    height: initial;
+    margin-right: auto;
+
+    background-color: #343a40;
+    border: 1px yellow solid;
+
+    color: skyblue;
+
+    padding: 5px;
+
+   
+}
+#consoil form #file_img{
+
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 0px;
+
+    cursor: pointer;
+
+
+}
+#consoil #voice{
+
+    height: 30px;
+    width: 30px;
+
+    border-radius: 50%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+#consoil #send{
+
+    height: 30px;
+    width: 30px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    cursor: pointer;
+
+}

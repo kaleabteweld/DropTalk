@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DropTalk</title>
+
+    <link href="../DropTalk/Thid Party/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="/Thid Party/animate.css" rel="stylesheet"> -->
+     <!-- <link href="../DropTalk/Thid Party/temp.css" rel="stylesheet"> -->
+
+    <link href="../DropTalk/css/Index.css" rel="stylesheet">
+    <link href="../DropTalk/css/logIn.css" rel="stylesheet">
+    <link href="../DropTalk/css/sign.css" rel="stylesheet">
+    <link href="../DropTalk/css/main_foot.css" rel="stylesheet">
+
+
+
+</head>
+
+<body class="bg-dark" id="body">
+
+    
+
+    <div id="head">
+
+        <div id="main"  class="container-fluid">
+
+
+            <nav id="nav" class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+
+                <a class="navbar-brand" href="#">DropTalk</a>
+                <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+    
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item "><a class="nav-link nav-link js-scroll-trigger" href="#body">Home</a></li>
+                        <li class="nav-item "><a class="nav-link nav-link js-scroll-trigger" href="#portes">About DropTalk</a></li>
+                        <li class="nav-item "><a class="nav-link nav-link js-scroll-trigger" href="#get">Download</a></li>
+                        <li class="nav-item "><a class="nav-link nav-link js-scroll-trigger" href="#about">Devlopers</a></li>
+                        <li class="nav-item "><a class="nav-link nav-link js-scroll-trigger" href="#join">Github</a></li>
+                    </ul>
+    
+                </div>
+            </nav>
+
+            <div id="logup">
+
+                <button id="login" class="ac">log In</button>
+                <button id="signup" class="no_ac">Sign Up</button>
+
+            </div> 
+
+            <div id="painl">
+
+                <form id="form"  action = "../DropTalk/backEnd/log_in.php" method="POST">  
+                
+                
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name = "email" class="form-control" id="email" placeholder="email@example.com">
+                        <div class="invalid-feedback">
+                            <p>
+                                check your Email
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="pass">password</label>
+                        <input type="password" name = "pass" class="form-control" id="pass" placeholder="*******">
+                        <div class="invalid-feedback">
+                            <p>
+                                check your password
+                            </p>
+                        </div>
+                    </div>
+    
+    
+                    <button id="post" type="submit" value = "submit" style="border-radius: 11rem; margin-top: 30px;" class="btn btn-success"> Log In</button>
+    
+    
+                </form>  
+
+                <form id="form_sig" action = "../DropTalk/backEnd/sign_up.php" method="POST" style="display: none;">
+
+                    <div class="T">
+
+                        <div class="form-group">
+                            <label for="name">your full Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="name">
+                            <div class="invalid-feedback">
+                                <p>
+                                    Enter your Name
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="form-group">
+                            <label for="us_name">User Name</label>
+                            <input type="text" class="form-control" id="us_name" name="us_name" placeholder="User Name">
+                            <div class="invalid-feedback">
+                                <p>
+                                    User Name taken, plese try agen
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="T">
+
+                        <div class="form-group">
+                            <label for="emaill">Email</label>
+                            <input type="text" class="form-control" id="emaill" name="emaill" placeholder="email@example.com">
+                            <div class="invalid-feedback">
+                                <p>
+                                    check your Email
+                                </p>
+                            </div>
+                        </div>
+        
+                        <div class="form-group">
+                            <label for="phon">Phon Number</label>
+                            <input type="number" class="form-control" id="phon" name="phon" placeholder="+251.....">
+                            <div class="invalid-feedback">
+                                <p>
+                                    check your Phone Number
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="passs">password</label>
+                        <input type="password" class="form-control" id="passs" name="pass" placeholder="*******">
+                        <div class="invalid-feedback">
+                            <p>
+                                check your password, Must Be less Than Or Equal 8 Charcter's
+                            </p>
+                        </div>
+                    </div>
+    
+                    <button id="posts" type="submit" value="submit" style="border-radius: 11rem;" class="btn btn-success"> sign In</button>
+                    <br>
+    
+                </form>  
+            </div>
+
+
+        </div>
+
+        
+
+    </div>
+
+
+    <div id="portes" class="container-fluid">
+
+        <div class="box">
+
+            <img src="../DropTalk/img/security_network_250x250_0096d6.png" alt="" id="ico">
+
+            <h1 id="title"> security network  </h1>
+
+            <p id="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam aliquam, maxime sint itaque eaque ea 
+            </p>
+
+        </div>
+        <div class="box">
+
+            <img src="../DropTalk/img/performance_250x250_0096d6.png" alt="" id="ico">
+
+            <h1 id="title"> Fast </h1>
+
+            <p id="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam aliquam, maxime sint itaque eaque ea 
+            </p>
+
+        </div>
+        <div class="box">
+
+            <img src="../DropTalk/img/cloudcontent_250x250_0096d6.png" alt="" id="ico">
+
+            <h1 id="title"> Cloud Based </h1>
+
+            <p id="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam aliquam, maxime sint itaque eaque ea 
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <div id="get" class="container-fluid">
+
+        <div id="inot">
+            <img src="../DropTalk/img/Devices-dark.png" alt="" id="ico">
+            <h2 id="title"> last but not least cross palfrom</h2>
+        </div>
+
+        <div id="download">
+
+            <button class="btn btn-primary">For android</button>
+            <button class="btn btn-primary">For IOS</button>
+            <button class="btn btn-primary" >For pc</button>
+
+        </div>
+    </div>
+
+    <div id="about"  class="container-fluid">
+        <p id="text">
+            Devlopers
+        </p>
+        <div id="team"  class="container-fluid">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-3">
+                    <div class="card text-white bg-dark">
+                        <img class="bd-placeholder-img card-img-top" src="../DropTalk/img/close-up-photo-ofg-light-bulb-716398.jpg">
+                        <img src="../DropTalk/img/tool_15.png" id="work"></img>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Amarech</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque ad rerum architecto a minima ea magnam rem ipsam, veniam explicabo sunt et unde qui repudiandae nesciunt illum consequuntur! Dolor? </p>
+                            <div class="card-footer text-muted">
+                                <img src="../DropTalk/img/twitter_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/facebook_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/6d1.png" alt="">
+                                <img src="../DropTalk/img/app_launcher_round.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card text-white bg-dark">
+                        <img class="bd-placeholder-img card-img-top" src="../DropTalk/img/close-up-photo-ofg-light-bulb-716398.jpg">
+                        <img src="../DropTalk/img/globe_250x250_0096d6.png" id="work"></img>
+                        <div class="card-body">
+
+                            <h5 class="card-title">kolo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque ad rerum architecto a minima ea magnam rem ipsam, veniam explicabo sunt et unde qui repudiandae nesciunt illum consequuntur! Dolor? </p>
+                            <div class="card-footer text-muted">
+                                <img src="../DropTalk/img/twitter_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/facebook_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/6d1.png" alt="">
+                                <img src="../DropTalk/img/app_launcher_round.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card text-white bg-dark">
+                        <img class="bd-placeholder-img card-img-top" src="../DropTalk/img/close-up-photo-ofg-light-bulb-716398.jpg">
+                        <img src="../DropTalk/img/globe_250x250_0096d6.png" id="work"></img>
+                        <div class="card-body">
+
+                            <h5 class="card-title">mooo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque ad rerum architecto a minima ea magnam rem ipsam, veniam explicabo sunt et unde qui repudiandae nesciunt illum consequuntur! Dolor? </p>
+                            <div class="card-footer text-muted">
+                                <img src="../DropTalk/img/twitter_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/facebook_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/6d1.png" alt="">
+                                <img src="../DropTalk/img/app_launcher_round.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="card text-white bg-dark">
+                        <img class="bd-placeholder-img card-img-top" src="../DropTalk/img/close-up-photo-ofg-light-bulb-716398.jpg">
+                        <img src="../DropTalk/img/globe_250x250_0096d6.png" id="work"></img>
+                        <div class="card-body">
+
+                            <h5 class="card-title">robel</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores cumque ad rerum architecto a minima ea magnam rem ipsam, veniam explicabo sunt et unde qui repudiandae nesciunt illum consequuntur! Dolor? </p>
+                            <div class="card-footer text-muted">
+                                <img src="../DropTalk/img/twitter_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/facebook_250x250_0096d6.png" alt="">
+                                <img src="../DropTalk/img/6d1.png" alt="">
+                                <img src="../DropTalk/img/app_launcher_round.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="join">
+
+        <img src="../DropTalk/img/download (2).png" id="git">
+        <p id="text">Do U Think U Can Help Us Make DropTalk Better</p>
+
+        <form class="form" action = "" method = "post">
+                
+            <div class="form-group">
+                <label for="email_in">Email</label>
+                <input type="text" name = "email" class="form-control" id="email_in" placeholder="email@example.com">
+                <div class="invalid-feedback">
+                    <p>
+                        check your Email
+                    </p>
+                </div>
+            </div>
+
+            <button id="go" type="submit" value = "submit" style="border-radius: 11rem; margin-top: 30px;" class="btn btn-success">Go</button>
+
+
+        </form>  
+    </div>
+
+    <footer id="foot">
+        
+        
+        <div id="bottom">
+
+            <div  id="yetbit" >
+                <p>POWERD BY Dalol Web Serices</p>
+            </div>
+
+
+
+            <div  id="coperigth">
+                <p>DropTalk@ All Copyright resverd</p>
+            </div>            
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="../DropTalk/Thid Party/jquery-3.4.1.js"></script>
+    <script src="../DropTalk/Thid Party/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="../DropTalk/Thid Party/acc.js"></script>
+
+    <script src="../DropTalk/js/logIn.js"></script>
+    <script src="../DropTalk/js/Sign.js"></script>
+    <script src="../DropTalk/js/index.js"></script>
+
+    
+    <script>
+
+        window.sr = ScrollReveal();
+        
+        sr.reveal('#head #main #nav',{
+            duration : 500,
+            distance : '500px',
+            origin : 'left'
+        });
+
+        sr.reveal('#portes .box',{
+            duration : 900,
+            scale:-1
+        });
+
+        sr.reveal('#get',{
+            duration : 900,
+            scale:-1
+
+        });
+        
+        sr.reveal('#about #team .col-sm-12',{
+            duration : 1000,
+            distance:'200px',
+            origin:'bottom',
+            rotate:{
+
+                z:360
+            }
+            
+
+        });
+
+        sr.reveal('#join',{
+            duration : 500,
+            distance: '200px',
+            origin: 'top'
+
+        });
+        
+    </script>
+
+
+</body>
+
+</html>
